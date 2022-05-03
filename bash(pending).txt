@@ -80,6 +80,32 @@ c = $st1$st2
 echo $c # will join both strings
 
 
+# declare variables which store data or path of files 
+declare k=/etc/apt/apache2  # (this variable can be changed read and write)
+declare -r k=/etc/apt/apache2 (read only variable)
+echo $k   # will print the path on terminal
+
+
+# array in bash
+car=('er' 'fgh' 'sdfgh')
+echo "$(car[0])"  # print first element
+echo "$(car[@])"  # to print all elements of array.
+echo "$(!car[@])"  # to print all elements index in array. -> 0 1 2
+echo "$(#car[@])"  # to print size of array. ->3
+
+#function in bash
+function functionname()
+{
+ echo "its a function"
+}
+functionname #calling the function
+
+#passing parameters to function
+function functionname()
+{
+ echo $1 $2 $3
+}
+functionname i love linux.
 
 
 
