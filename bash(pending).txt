@@ -108,9 +108,15 @@ function functionname()
 functionname i love linux.
 
 
-
-
-
+# checking/creating file or directory
+echo "enter directory name"
+read direct
+if [ -d "$direct" ]
+then
+echo "$direct exists"
+else
+echo "$direct doesn't exist"
+fi
 
 
 
