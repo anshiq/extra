@@ -19,6 +19,11 @@ chmod -R +664 ./folder // to change permitions of folder 6 means w&r 4 means onl
 
 
 
+pendning pending
+
+
+
+
 
 
 
