@@ -26,7 +26,7 @@ docker container prune // to remove all stopped containers.
 
 docker system prune  // to remove all unused  cache.
 
-docker system prune -a // to remove all the stopped containers.
+docker system prune -a // to remove all the stopped containers and images.
 
 docker rm -f <container id> // to force stop the container.
 
