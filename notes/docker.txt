@@ -30,6 +30,7 @@ docker system prune -a // to remove all the stopped containers and images.
 
 docker rm -f <container id> // to force stop the container.
 
+docker image rm -f <image Id> // to force remove the images.
 
 docker commit <container id>  Image_name:tag    // it create a backup image, can be run from image id, which can be find by docker images. 
 
