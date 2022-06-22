@@ -1,0 +1,21 @@
+#install openssh-server on server side 
+sudo systemctl start ssh.service
+
+configure the file /etc/ssh/sshd_config
+add line here:
+#LoginGraceTime 2m
+PermitRootLogin yes
+#PermitRootLogin prohibit-password
+
+save the file 
+restart systemctl service.
+
+on client side use: ssh anshik@192.168.43.7  // to connect the server side.
+
+
+To send Files:
+#install scp tool.
+command:
+scp file.txt remote_username@10.10.0.2:/remote/directory
+scp /sdcard/file.txt anshik@192.168.43.7:/home/anshik/Desktop
+// On window the path of file is give like "/sdcard/file.txt"
