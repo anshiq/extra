@@ -8,6 +8,7 @@ PermitRootLogin yes
 #PermitRootLogin prohibit-password
 
 save the file 
+
 restart systemctl service.
 
 on client side use: ssh anshik@192.168.43.7  // to connect the server side.
@@ -17,5 +18,37 @@ To send Files:
 #install scp tool.
 command:
 scp file.txt remote_username@10.10.0.2:/remote/directory
-scp /sdcard/file.txt anshik@192.168.43.7:/home/anshik/Desktop
+
+scp /sdcard/file.txt anshik@192.168.43.7:/home/anshik/Desktop   OR
+
+scp /sdcard/file.txt scp://anshik@192.168.43.7:22//home/anshik/Desktop  // using port 22 which is default but helpfull in case of pc to mobile the port is 8022
+
 // On window the path of file is give like "/sdcard/file.txt"
+
+
+
+
+
+
+# To accumplish on the mobile:
+install openshh on termux
+
+type whoami to get username of mobile termux
+
+type command sshd to start ssh.service
+
+default port of mobile termux is 8022.
+
+set password of user by command:
+passwd user_name
+
+type ifconfig to get ipaddress.
+
+go to client machine.
+connect the sever by command:
+ssh user@ip_address -p 8022
+
+#to use scp // to transfer files from pc to termux
+scp pcfile.txt  scp://u0_a416@192.168.172.247:8022//Osdcard
+
+ 
