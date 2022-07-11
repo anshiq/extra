@@ -19,7 +19,10 @@ chmod -R +664 ./folder // to change permitions of folder 6 means w&r 4 means onl
 
 
 
-pendning pending
+pacman -Rcns code-oss  // to remove or autoremove the whole package and its dependicies.
+pacman -Syy // to update the mirrors.
+pacman -S code-oss // to install code-oss.
+
 
 
 

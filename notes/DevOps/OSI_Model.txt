@@ -1,0 +1,12 @@
+# It is a standard for how computers will interact with other computes.
+
+There are 7 layers in the OSI Model.
+1). Application Layer: It is implemented in software.
+2). Presentation: It encypts & compress the data and convert into 0 and 1.
+3). Session Layer: Login, Verification & Authentication takes place.
+4). Transport Layer: 
+5). Network Layer: From here loca computer communicate with other computer. this where router lives.
+6). Data Link Layer
+7). Physical Layer
+
+1). Application Layer: It is implemented in software.
