@@ -21,7 +21,7 @@ server as well as client.
 Protocols: 
 (1) tcp/ip
 i) http  ii) DHCP iii) FTP vi) SMTP v) POP3 & IMAC  (all are tcp ip))
-i) http hypertec tranferprotocal (stateless protocol,dont store state)
+i) http hypertec tranferprotocal
 ii) DHCP: Dynamic Host Control Protocol: it alocates ip address from network to devices.
 iii) FTP: file transfer protocal.
 iv) SMTP: Simple Mail Transfer Protocal: used to emails and stuff.
