@@ -1,10 +1,16 @@
  find . -type f -iname *.php //to show all phpfiles   // remove i in -i to make it case sensetive. f means only files not directories.
  find . -type f -not -iname *.php  //show all the files which are not php. 
 
+find /home -type f -name "*.cpp"
+to find file present in home having extension .cpp
 
-
-find . -size +1M   // to find all files bigger than 1 mb 
+find . -size +1M   // to find all files bigger than 1 mb  use G instead M for in Gb.
 find . -size -1M   // to find all files lesser than 1 mb
+
+to find files on basis of time:
+find /home -type f -mmin +2 -mmin -10  // will show files modified between last 10 minutes to 2 minutes.
+find /home -type f -mtime +2 -mtime -10  // in terms of days not in minutes.
+
 
 ls -l // to see file permitions
 
@@ -15,6 +21,9 @@ chown  user:group ./filename.extention // to change owner ship of whole director
 chmod  +464 ./filename // to change permitions of files 6 means w&r 4 means only r.
 
 chmod -R +664 ./folder // to change permitions of folder 6 means w&r 4 means only r.
+
+
+
 
 
 

@@ -1,5 +1,6 @@
 # It is a standard for how computers will interact with other computes.
 
+OSI Model:
 There are 7 layers in the OSI Model.
 1). Application Layer: It is implemented in software.
 2). Presentation: It encypts & compress the data and convert into 0 and 1.
@@ -21,7 +22,7 @@ Sockets: They are the gate ways from netwok to applications. (uses ports).
 
 
 Protocols: 
-(1) tcp/ip  (connection oriented, error control, bidectional(means fuel duplex), )
+(1) tcp/ip  (connection oriented, error control, bidectional(means fuel duplex) ).
 i) http  ii) DHCP iii) FTP vi) SMTP v) POP3 & IMAP  (all are tcp ip)
 i) http hypertec tranferprotocal (stateless protocol,dont store state)
 ii) DHCP: Dynamic Host Control Protocol: it alocates ip address from network to devices.
@@ -86,13 +87,20 @@ it is used by DNS, Games, Video calling.
 
 
 
+TCP(3way handshake): Cleint sends a syn flag to server with a random sequence number, server do some maths on sequence number and response with acknoledge flag to client.In response acknowledge flags is sent by client to server and connection establshed.
+
+
+Transport layer convert data in segments.
+network layer convert data in packets.
+Data link layer convert data in frames.
 
 
 
+Network Layer: (here we work with routers)->  pendingS
 
 
-
-
+Middle Boxes: the divices present in network and transport layer whick also interact with packets.
+i) firewalls: used as filters and modify packets.
 
 
 
