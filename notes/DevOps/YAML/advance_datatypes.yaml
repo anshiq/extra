@@ -1,0 +1,4 @@
+student: !!seq
+ - marks
+ - name
+ - roll_no

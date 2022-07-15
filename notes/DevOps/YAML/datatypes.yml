@@ -1,0 +1,31 @@
+# string variables 3 ways to represent
+name: Anshik Singh  # here anshik singh is a veriable
+fruit: "apple"
+job:  'softwareengenear'
+
+message: >
+this will 
+all be in one 
+single line.
+---
+# same as
+message: this will all be in one single line.
+---
+# yaml detects automatically the data type.
+number: 5435
+marks: 98.67
+boolean: No # n, N, false,False, FALSE for true -> yes , y, Y
+
+# specify the type manually eg: int float string bool
+#int
+zero: !!int 0
+positivenumber: !!int 45
+negativenumber: !!int -45
+binary: !!int 0b11001 
+hexa: !!int 0x45 
+commavalues: !!int +540_000 # 540,000
+---
+#float
+marks: !!float 56.09
+infinite: !!float .inf
+not a number: .nan

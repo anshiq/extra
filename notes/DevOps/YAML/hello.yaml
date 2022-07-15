@@ -1,0 +1,18 @@
+"apple" : "I am a red fruit" # key pair value data type.
+1: "it is my roll number"
+--- # --- is used to differentiate b/w documents.
+# lists 
+- apple # list style data type
+- mango
+- banana
+--- # again to differentiate docs
+
+cities: # block style data type or siilar to array.
+ - new delhi
+ - mumbai
+ - chandigard
+---
+cities: [new delhi, mumbai, chandigard] # same as above. 
+...
+# above al are 3 documents and ... means all docs are ended 
+# after this no new doc will work.

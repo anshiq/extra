@@ -1,0 +1,11 @@
+coursers:
+  course_name: "DevOps"
+  version: 1
+  is_public: true
+  release_date: 2021-04-05 12:13:22
+  pre_enroll: null
+  tags: 
+    - python
+    - web dev
+    - mysql
+  course_tags_in_other_way: ["anirudh","anurag","rakesh"]  
