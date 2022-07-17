@@ -1,0 +1,32 @@
+{
+  "School": [
+    {
+      "name": "DPS",
+      "principal": "dps_principal",
+      "students": [
+        {
+          "roll_number": 12,
+          "name": "Anshik",
+          "marks": 85
+        },
+        {
+          "roll_number": 11,
+          "name": "Anhush",
+          "marks": 85
+        },
+        {
+          "roll_number": 13,
+          "name": "sarb",
+          "marks": 86
+        }
+      ]
+    },
+    {
+      "name": "Sant vivekanand",
+      "principal": "Rajverr",
+      "students": null,
+      "roll_number": 12,
+      "marks": 85
+    }
+  ]
+}

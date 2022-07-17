@@ -1,0 +1,26 @@
+<School>
+  <name>DPS</name>
+  <principal>dps_principal</principal>
+  <students>
+    <roll_number>12</roll_number>
+    <name>Anshik</name>
+    <marks>85</marks>
+  </students>
+  <students>
+    <roll_number>11</roll_number>
+    <name>Anhush</name>
+    <marks>85</marks>
+  </students>
+  <students>
+    <roll_number>13</roll_number>
+    <name>sarb</name>
+    <marks>86</marks>
+  </students>
+</School>
+<School>
+  <name>Sant vivekanand</name>
+  <principal>Rajverr</principal>
+  <students/>
+  <roll_number>12</roll_number>
+  <marks>85</marks>
+</School>
