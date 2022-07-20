@@ -1,3 +1,6 @@
+kubernetes cluster = Control plane + working nodes
+
+
 Kubernetes Basic Architecture:
 It is made up with one master node called Control Plane and some worker nodes. 
 
