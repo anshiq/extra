@@ -6,3 +6,7 @@ acpi -V
 acpi -t
 
 nmcli   device wifi connect <tab to list & select network> password  <password of network>   // to connect wifi by terminal.
+
+w3m and lynx are terminal browsers better is w3m
+
+amixer -D pulse sset Master 20%   // to control volume set it to 20 
