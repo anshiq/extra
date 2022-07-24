@@ -1,0 +1,8 @@
+sudo systemctl set-default multi-user  && reboot  // to exit GUI
+
+sudo systemctl set-default graphical  && reboot  // to start GUI
+
+acpi -V
+acpi -t
+
+nmcli   device wifi connect <tab to list & select network> password  <password of network>   // to connect wifi by terminal.
