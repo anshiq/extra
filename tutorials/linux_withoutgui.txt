@@ -10,3 +10,8 @@ nmcli   device wifi connect <tab to list & select network> password  <password o
 w3m and lynx are terminal browsers better is w3m
 
 amixer -D pulse sset Master 20%   // to control volume set it to 20 
+
+
+in kali linux use alt + left/right   to switch between virtual terminals
+
+for ubuntu use: ctrl + alt + f(1 to 6) // to switch tty virtual terminals.
