@@ -1,0 +1,2 @@
+press control enter in vs code to go to other line 
+ ctrl / to comment out selected text.
