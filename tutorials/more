@@ -1,0 +1,13 @@
+fn + f11 to set full screen and exit full screen in gnome-terminal.
+-- tmux (one last time: that’s Ctrl and b at once, then c)
+  - planes (split window)
+   :  ctrl + b %  for vsplit
+   :  ctrl + b "  for split
+   :  Ctrl + b o  Allows you to switch to the next pane
+   :  Ctrl + b ;  Allows you to alternate between both panes
+   :  Ctrl + b x  Allows you to close a pane
+   :  Ctrl + b z make a pane go full screen. Hit Ctrl + b z again to shrink it back to its previous size.
+  - Multiple windows or Tabs // the window with * is current working window.
+   : Creating new windows  Ctrl-b c . 
+   : To switch to the previous window  Ctrl-b p, to switch to the next window use C-b n. or just use C-b <number> 
+   : C-b ,: Rename the current window
