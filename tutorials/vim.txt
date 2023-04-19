@@ -86,3 +86,6 @@ IN FILE MANAGER:::
 IN FILE MANAGER:::
 -> press d to delete selected file.
 
+
+shift k to get documentation
+
