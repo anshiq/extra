@@ -89,3 +89,11 @@ IN FILE MANAGER:::
 
 shift k to get documentation
 
+
+
+In Neovim, you can use the Fuzzy Finder plugin (fzf) to search for files in your project. Once you have opened the Fuzzy Finder window, you can navigate between the search results using the following commands:
+
+    Ctrl-n: Move the cursor to the next result
+    Ctrl-p: Move the cursor to the previous result
+    Ctrl-j: Same as Ctrl-n
+    Ctrl-k: Same as Ctrl-p
