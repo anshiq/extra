@@ -3,4 +3,4 @@ here I push my extra work, experiments, quick data, direct installers of some so
 
 I suppose It is not for you. 
  
- thanks you for visiting.
+thanks you for visiting.
