@@ -38,3 +38,26 @@ $ tmux new -s Session1
     Ctrl+B W — Open a panel to navigate across windows in multiple sessions.
 
 For additional keybindings, consult the tmux man pages.
+
+
+# tmuxifier config
+session_root "~/Desktop/sukh"
+if initialize_session "dev"; then
+    new_window 'dev'
+    # horizontal split to run start commands on right and 2 client and server editor on left
+    split_h 15  
+    split_v 50
+    run_cmd "cd client"
+    run_cmd "bun run start"
+    select_pane 1
+    run_cmd "cd server"
+    run_cmd "nodemon app.js"
+    select_pane 0
+    run_cmd "cd client"
+    run_cmd "lvim ."
+    split_v 50
+    run_cmd "cd server"
+    run_cmd "lvim ."
+fi
+finalize_and_go_to_session
+
