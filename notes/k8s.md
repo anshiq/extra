@@ -29,4 +29,35 @@ Other controllers include:
 
 - **Node Controller:** Checks whether a node inside a cloud is responding or not. Based on this, it checks whether the inactive node is deleted or not from the cloud. If it is, the controller removes the Node Object from the cluster.  
 - **Route Controller:** Creates and manages routes within the cloud infrastructure for containers across nodes to communicate with each other.  
-- **Service Controller:** Creates and manages service resources in the cluster.  
+- **Service Controller:** Creates and manages service resources in the cluster.
+
+The proccess of keeping all things in sync are called d-consilation
+
+
+### kube Schedular
+kube-scheduler is responsible for scheduling and assigns pods to nodes based on the following constraints:
+
+- Time-sensitivity of a request
+- Restrictions due to policies
+- Data locality
+- Inter-workload interference
+- Hardware
+- Software and more.
+  if one node is high on traffic i will figure out other node to run newly create pod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
